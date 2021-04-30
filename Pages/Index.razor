@@ -1,0 +1,44 @@
+﻿@page "/"
+
+<h1>BindToComponent_SpecifiesValueAndChangeEvent_WithMatchingProperties</h1>
+
+<BindToComponent_SpecifiesValueAndChangeEvent_WithMatchingProperties @bind-Value="ParentValue" @bind-Value:event="OnChanged" />
+
+<h1>ChildComponent_WithLambdaEventHandler</h1>
+
+<ChildComponent_WithLambdaEventHandler OnClick="@(e => { Increment(); })" />
+
+<h1>BodyAndAttributeChildContent</h1>
+
+@{ RenderFragment<string> header = (context) => @<div>@context.ToLowerInvariant()</div>; }
+<BodyAndAttributeChildContent Header=@header>
+    Some Content
+</BodyAndAttributeChildContent>
+
+<h1>RazorTemplate_Generic_AsComponentParameter</h1>
+
+@{ RenderFragment<Person> template = (person) => @<div>@person.Name</div>; }
+<RazorTemplate_Generic_AsComponentParameter PersonTemplate="@template"/>
+
+<h1>BindToComponent_TypeChecked_WithMatchingProperties</h1>
+
+<BindToComponent_TypeChecked_WithMatchingProperties @bind-Value="ParentValue" />
+
+<ChildComponent_WithExplicitEventHandler OnClick="@IncrementWithEventArgs" />
+
+
+@code {
+    public int ParentValue { get; set; } = 42;
+
+    private int counter;
+    private void Increment() {
+        System.Console.WriteLine("Incrementing inside Increment.");
+        counter++;
+    }
+
+    private void IncrementWithEventArgs(EventArgs args)
+    {
+       System.Console.WriteLine("Incrementing inside IncrementWithEventArgs.");
+        counter++; 
+    }
+}

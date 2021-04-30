@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/captainsafia/Verifications/NullableParam/NullableParam.csproj": {}
+  },
+  "projects": {
+    "/Users/captainsafia/Verifications/NullableParam/NullableParam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/captainsafia/Verifications/NullableParam/NullableParam.csproj",
+        "projectName": "NullableParam",
+        "projectPath": "/Users/captainsafia/Verifications/NullableParam/NullableParam.csproj",
+        "packagesPath": "/Users/captainsafia/.nuget/packages/",
+        "outputPath": "/Users/captainsafia/Verifications/NullableParam/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/captainsafia/Verifications/NullableParam/NuGet.Config",
+          "/Users/captainsafia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/Users/captainsafia/github.com/dotnet/aspnetcore/artifacts/packages/Debug/Shipping": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1605"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[6.0.0-dev, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.0-dev, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-dev, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.0-preview.5.21229.1, 6.0.0-preview.5.21229.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.0-preview.5.21229.1, 6.0.0-preview.5.21229.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/captainsafia/github.com/dotnet/sdk/artifacts/bin/redist/Debug/dotnet/sdk/6.0.100-dev/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
