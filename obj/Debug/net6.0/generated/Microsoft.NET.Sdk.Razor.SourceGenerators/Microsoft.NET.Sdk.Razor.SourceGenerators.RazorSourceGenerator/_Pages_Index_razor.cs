@@ -96,12 +96,12 @@ using NullableParam.Shared;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(3, "OnChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheckDelegate<System.Action<System.Int32>>(__value => ParentValue = __value));
+            __builder.AddAttribute(3, "OnChanged", (System.Action<System.Int32>)(__value => ParentValue = __value));
             __builder.CloseComponent();
             __builder.AddMarkupContent(4, "\r\n\r\n");
             __builder.AddMarkupContent(5, "<h1>ChildComponent_WithLambdaEventHandler</h1>\r\n\r\n");
             __builder.OpenComponent<NullableParam.Shared.ChildComponent_WithLambdaEventHandler>(6);
-            __builder.AddAttribute(7, "OnClick", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheckDelegate<System.Action<System.EventArgs>>(
+            __builder.AddAttribute(7, "OnClick", (System.Action<System.EventArgs>)(
 #nullable restore
 #line 9 "/Users/captainsafia/Verifications/NullableParam/Pages/Index.razor"
                                                   e => { Increment(); }
@@ -141,7 +141,7 @@ using NullableParam.Shared;
 #line hidden
 #nullable disable
             __builder.OpenComponent<NullableParam.Shared.BodyAndAttributeChildContent>(12);
-            __builder.AddAttribute(13, "Header", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheckDelegate<Microsoft.AspNetCore.Components.RenderFragment<System.String>>(
+            __builder.AddAttribute(13, "Header", (Microsoft.AspNetCore.Components.RenderFragment<System.String>)(
 #nullable restore
 #line 14 "/Users/captainsafia/Verifications/NullableParam/Pages/Index.razor"
                                       header
@@ -185,7 +185,7 @@ using NullableParam.Shared;
 #line hidden
 #nullable disable
             __builder.OpenComponent<NullableParam.Shared.RazorTemplate_Generic_AsComponentParameter>(20);
-            __builder.AddAttribute(21, "PersonTemplate", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheckDelegate<Microsoft.AspNetCore.Components.RenderFragment<NullableParam.Shared.Person>>(
+            __builder.AddAttribute(21, "PersonTemplate", (Microsoft.AspNetCore.Components.RenderFragment<NullableParam.Shared.Person>)(
 #nullable restore
 #line 21 "/Users/captainsafia/Verifications/NullableParam/Pages/Index.razor"
                                                              template
@@ -207,11 +207,11 @@ using NullableParam.Shared;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(26, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheckDelegate<System.Action<System.Int32>>(__value => ParentValue = __value));
+            __builder.AddAttribute(26, "ValueChanged", (System.Action<System.Int32>)(__value => ParentValue = __value));
             __builder.CloseComponent();
             __builder.AddMarkupContent(27, "\r\n\r\n");
             __builder.OpenComponent<NullableParam.Shared.ChildComponent_WithExplicitEventHandler>(28);
-            __builder.AddAttribute(29, "OnClick", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheckDelegate<System.Action<System.EventArgs>>(
+            __builder.AddAttribute(29, "OnClick", (System.Action<System.EventArgs>)(
 #nullable restore
 #line 27 "/Users/captainsafia/Verifications/NullableParam/Pages/Index.razor"
                                                    IncrementWithEventArgs

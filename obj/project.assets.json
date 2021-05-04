@@ -1399,12 +1399,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.0-preview.5.21229.1, 6.0.0-preview.5.21229.1]"
-          },
-          {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[6.0.0-preview.5.21229.1, 6.0.0-preview.5.21229.1]"
+            "version": "[6.0.0-preview.4.21221.4, 6.0.0-preview.4.21221.4]"
           }
         ],
         "frameworkReferences": {
@@ -1412,7 +1408,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/captainsafia/github.com/dotnet/sdk/artifacts/bin/redist/Debug/dotnet/sdk/6.0.100-dev/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/captainsafia/github.com/dotnet/aspnetcore/.dotnet/sdk/6.0.100-preview.4.21222.6/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

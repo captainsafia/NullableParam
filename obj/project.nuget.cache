@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lbt+dYMQXUZKBu/KrJSeuG5SfOKs/u2WTqWvxh0qtVbvCkPirU0lg0r9eq5s5qIoCjxLzaJWrg4Ud/LBxE5Z+A==",
+  "dgSpecHash": "pquOS7MjYai64d+zo7LUR81cib5w3BN4DLonrfiMgWev7JnNvSw+EnC8cQ4i5ZZz1KQ26YCfPuZa8YtxscPwAg==",
   "success": true,
   "projectFilePath": "/Users/captainsafia/Verifications/NullableParam/NullableParam.csproj",
   "expectedPackageFiles": [
@@ -33,8 +33,7 @@
     "/Users/captainsafia/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0-preview.5.21227.7/system.runtime.compilerservices.unsafe.6.0.0-preview.5.21227.7.nupkg.sha512",
     "/Users/captainsafia/.nuget/packages/system.text.encodings.web/6.0.0-preview.5.21227.7/system.text.encodings.web.6.0.0-preview.5.21227.7.nupkg.sha512",
     "/Users/captainsafia/.nuget/packages/system.text.json/6.0.0-preview.5.21227.7/system.text.json.6.0.0-preview.5.21227.7.nupkg.sha512",
-    "/Users/captainsafia/.nuget/packages/microsoft.netcore.app.ref/6.0.0-preview.5.21229.1/microsoft.netcore.app.ref.6.0.0-preview.5.21229.1.nupkg.sha512",
-    "/Users/captainsafia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.0-preview.5.21229.1/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.0-preview.5.21229.1.nupkg.sha512"
+    "/Users/captainsafia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.0-preview.4.21221.4/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.0-preview.4.21221.4.nupkg.sha512"
   ],
   "logs": []
 }
